@@ -35,7 +35,7 @@
                     overflow:hidden;
                     margin-top: 3px;
                     font-size: 24px;
-                    text-align: center;
+                    text-align: left;
                     white-space:nowrap;
                     text-overflow:ellipsis;
                 }
@@ -44,7 +44,7 @@
                     color: #b3b3b3;
                     font-size: 20px;
                     margin-top: 4px;
-                    text-align: center;
+                    text-align: left;
                     margin-bottom: 5px;
                 }
 
@@ -101,7 +101,7 @@
 
                 <div class="content">
                     <div class="song">{{songName}}</div>
-                    <div class="artist">{{artistName}}</div>
+                    <div class="artist">{{"by "+artistName}}</div>
                     <div id="bars">{{contentBar|safe}}</div>
                 </div>
             </div>
